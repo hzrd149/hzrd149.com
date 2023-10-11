@@ -1,0 +1,34 @@
+# The URL the site will be built for
+base_url = "https://hzrd149.com"
+title = "hzrd149"
+description = "A website about me"
+compile_sass = false
+minify_html = true
+build_search_index = true
+generate_feed = true
+theme = "anemone"
+
+[markdown]
+highlight_code = true
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+list_pages = false
+default_theme = "dark"
+twitter_card = true
+
+[[extra.header_nav]]
+en = { name = "/home/", url = "/" }
+
+[[extra.header_nav]]
+en = { name = "/about/", url = "/about" }
+
+[[extra.header_nav]]
+en = { name = "/projects/", url = "/projects" }
+
+[[extra.header_nav]]
+en = { name = "/blog/", url = "/blog" }
