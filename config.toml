@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://hzrd149.com"
+base_url = "/"
 title = "hzrd149"
 description = "A website about me"
 compile_sass = false
