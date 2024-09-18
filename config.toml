@@ -5,7 +5,7 @@ description = "A website about me"
 compile_sass = false
 minify_html = true
 build_search_index = true
-generate_feed = true
+generate_feeds = true
 theme = "anemone"
 
 [markdown]
