@@ -1,13 +1,17 @@
 {
 	"names": {
 		"_": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
-		"hzrd149": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5"
+		"hzrd149": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
+		"wifistr": "b57fe46c7b053bea85c2a6c7d7717f42df378b731d91fd0bbdf7fcb815429e38",
+		"applesauce": "10b4878a2351ba0726b6af289d601082f0f018b791acda27e6ef4408ba667c4c",
+		"cherry-tree": "2c20b742a62afd3e7550beb06b67225509afb193069200ec8274d7784ba1a2c0",
+		"nostrudel": "713978c3094081b34fcf2f5491733b0c22728cd3b7a6946519d40f5f08598af8"
 	},
 	"relays": {
 		"266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5": [
-			"wss://purplepag.es",
 			"wss://nostrue.com",
-			"wss://nostr.wine"
+			"wss://nostr.wine",
+			"wss://relay.damus.io"
 		]
 	}
 }
