@@ -28,11 +28,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build only
-        uses: shalzz/zola-deploy-action@v0.19.2
-        env:
-          BUILD_DIR: .
-          BUILD_ONLY: true
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+
+      - name: Build site
+        run: deno task build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist repository
-          path: "./public"
+          path: "./_site"
 
       - name: Deploy to GitHub Pages
         id: deployment

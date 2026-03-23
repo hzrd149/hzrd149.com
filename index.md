@@ -1,9 +1,11 @@
-+++
-+++
+---
+layout: layouts/main.vto
+---
 
-## Overview
+Welcome to my simple website. I'm a software engineer currently interested with [nostr](https://nostr.com)
 
-My nostr pubkey is [npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr](nostr:npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr)
+My nostr pubkey is: <br>
+[npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr](nostr:npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr)
 
 You can view my profile on a few different clients
 - [nostrudel.ninja](https://nostrudel.ninja/#/u/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr)
@@ -14,6 +16,6 @@ You can view my profile on a few different clients
 
 - [noStrudel](./projects#nostrudel)
 
-## Blog Posts
+## Blog
 
 - [Hello World](./blog/hello-world)

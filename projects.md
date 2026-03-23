@@ -1,6 +1,6 @@
-+++
-title = "Projects"
-+++
+---
+title: Projects
+---
 
 ## noStrudel
 

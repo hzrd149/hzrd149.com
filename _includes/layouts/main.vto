@@ -1,0 +1,54 @@
+---
+title: This is the front matter
+---
+
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title }}</title>
+    <meta name="author" content="hzrd149">
+
+    <link href="font.css" as="style">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <main class="content">
+      <table class="header">
+        <tbody>
+          <tr>
+            <td class="width-auto" colspan="5">
+              <img src="/profile.svg" style="width: 3.5em; height: 3.5em; float: left; display: inline-block;"/>
+              <h1 style="text-transform: none">hzrd149</h1>
+              <span>Software Engineer</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="width-min"><a href="/">Home</a></td>
+            <td class="width-min"><a href="/blog">Blog</a></td>
+            <td class="width-auto"></td>
+            <td class="width-min">
+              <a href="https://github.com/hzrd149">Github</a>
+            </td>
+            <td class="width-min">
+              <a href="https://npub.world/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"
+              >Nostr</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+			{{ content }}
+    </main>
+    <footer class="footer">
+      Built with <a href="https://lume.land">Lume</a>
+      and <a href="https://owickstrom.github.io/the-monospace-web/"
+      >The Monospace Web</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@owickstrom/the-monospace-web@~0.1.5": "0.1.5"
+  },
+  "npm": {
+    "@owickstrom/the-monospace-web@0.1.5": {
+      "integrity": "sha512-kEOFm1vL3Ut2e2XrNUjmogccyr3rrmOMpULpkim37wPD0uxeFW5XBZwbfPMOlLF3aLeTxl83CKyOhOxW+D4Fjg=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@owickstrom/the-monospace-web@~0.1.5"
+    ]
+  }
+}
