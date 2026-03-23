@@ -2,6 +2,8 @@ import lume from "lume/mod.ts";
 
 const site = lume();
 
+site.data("title", "hzrd149");
+
 site.ignore(".nsite");
 site.ignore(".github");
 
