@@ -46,3 +46,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Deploy to nsite
+        uses: sandwichfarm/nsite-action@v0.3.0
+        with:
+          nbunksec: ${{ secrets.NSITE_TOKEN }}
+          directory: "./_site" # Your built website directory
